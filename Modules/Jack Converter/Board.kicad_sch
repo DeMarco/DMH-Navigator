@@ -5,7 +5,7 @@
 	(uuid "db7ad9c6-6ec6-40eb-95e9-2fe341a62ab2")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
+		(symbol "Synth_Stuff:Banana_Jack"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.762) hide)
@@ -13,19 +13,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 6.858 0)
+				(at 2.54 4.5721 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "Banana_Jack"
+				(at 2.54 2.0321 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -46,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "test point"
+			(property "Description" "Test Point to solder Banana Jack to"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "ki_keywords" "test point tp banana"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,7 +75,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_0_1"
+			(symbol "Banana_Jack_0_1"
 				(circle
 					(center 0 3.302)
 					(radius 0.762)
@@ -86,7 +88,7 @@
 					)
 				)
 			)
-			(symbol "TestPoint_1_1"
+			(symbol "Banana_Jack_1_1"
 				(pin passive line
 					(at 0 0 90)
 					(length 2.54)
@@ -107,207 +109,13 @@
 				)
 			)
 		)
-		(symbol "Connector_Audio:AudioJack2_SwitchT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack2_SwitchT"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack2_SwitchT_0_1"
-				(rectangle
-					(start -2.54 0)
-					(end -3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -0.254) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AudioJack2_SwitchT_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Generic:Conn_02x08_Row_Letter_Last"
+		(symbol "Synth_Stuff:Eurorack_Power_Connector_16Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J100"
+			(property "Reference" "J"
 				(at 1.27 -16.51 0)
 				(effects
 					(font
@@ -323,7 +131,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -341,7 +149,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x08, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "IDC jack, 2x8 pins, row a carries same signals as row b."
 				(at 0 0 0)
 				(effects
 					(font
@@ -368,7 +176,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x08_Row_Letter_Last_1_1"
+			(symbol "Eurorack_Power_Connector_16Pin_1_1"
 				(rectangle
 					(start -1.27 -10.033)
 					(end 0 -10.287)
@@ -846,22 +654,22 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push_DPDT"
+		(symbol "Synth_Stuff:Switch_DPDT"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 10.16 0)
+				(at 0 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_Push_DPDT"
-				(at 0 -10.16 0)
+			(property "Value" "SW_DPDT"
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -886,7 +694,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Momentary Switch, dual pole double throw"
+			(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -895,7 +703,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON"
+			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON ON-OFF-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -904,7 +712,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_DPDT_0_0"
+			(symbol "Switch_DPDT_0_0"
 				(circle
 					(center -2.032 -5.08)
 					(radius 0.508)
@@ -950,7 +758,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_DPDT_0_1"
+			(symbol "Switch_DPDT_0_1"
 				(polyline
 					(pts
 						(xy -1.524 -4.826) (xy 2.3368 -3.0988)
@@ -1058,7 +866,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_DPDT_1_1"
+			(symbol "Switch_DPDT_1_1"
 				(rectangle
 					(start -3.175 8.89)
 					(end 3.175 -8.89)
@@ -1171,6 +979,394 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Synth_Stuff:TS_Jack_3.5mm_Sw"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -0.635 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS_Jack_3.5mm_Sw"
+				(at -0.635 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mono audio jack receptacle 3.5mm TS connector tip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS_Jack_3.5mm_Sw_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TS_Jack_3.5mm_Sw_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Synth_Stuff:TS_Jack_6.35mm_Sw"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -0.635 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS_Jack_6.35mm_Sw"
+				(at -0.635 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mono audio jack receptacle 6.35mm TS connector tip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS_Jack_6.35mm_Sw_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end -3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TS_Jack_6.35mm_Sw_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4592,7 +4788,7 @@
 		(uuid "ffe9a957-065f-435d-ac31-cdf01bd72c39")
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Synth_Stuff:Banana_Jack")
 		(at 175.26 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4637,7 +4833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point to solder Banana Jack to"
 			(at 175.26 87.63 0)
 			(effects
 				(font
@@ -4659,7 +4855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
 		(at 93.98 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4676,7 +4872,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_6.35mm"
+		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 93.345 181.61 0)
 			(effects
 				(font
@@ -4702,7 +4898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 93.98 187.96 0)
 			(effects
 				(font
@@ -4730,7 +4926,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
 		(at 179.07 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4747,7 +4943,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_3.5mm"
+		(property "Value" "TS_Jack_3.5mm_Sw"
 			(at 178.435 35.56 0)
 			(effects
 				(font
@@ -4773,7 +4969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
 			(at 179.07 41.91 0)
 			(effects
 				(font
@@ -4801,7 +4997,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
 		(at 93.98 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4818,7 +5014,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_6.35mm"
+		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 93.345 140.97 0)
 			(effects
 				(font
@@ -4844,7 +5040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 93.98 147.32 0)
 			(effects
 				(font
@@ -4872,7 +5068,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
 		(at 73.66 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4889,7 +5085,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_3.5mm"
+		(property "Value" "TS_Jack_3.5mm_Sw"
 			(at 73.025 35.56 0)
 			(effects
 				(font
@@ -4915,7 +5111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
 			(at 73.66 41.91 0)
 			(effects
 				(font
@@ -4943,7 +5139,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
 		(at 73.66 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4960,7 +5156,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_3.5mm"
+		(property "Value" "TS_Jack_3.5mm_Sw"
 			(at 73.025 140.97 0)
 			(effects
 				(font
@@ -4986,7 +5182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
 			(at 73.66 147.32 0)
 			(effects
 				(font
@@ -5014,7 +5210,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x08_Row_Letter_Last")
+		(lib_id "Synth_Stuff:Eurorack_Power_Connector_16Pin")
 		(at 142.24 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5039,7 +5235,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
 			(at 142.24 125.73 0)
 			(effects
 				(font
@@ -5057,7 +5253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x08, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "IDC jack, 2x8 pins, row a carries same signals as row b."
 			(at 142.24 125.73 0)
 			(effects
 				(font
@@ -5124,7 +5320,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
 		(at 73.66 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5141,7 +5337,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_3.5mm"
+		(property "Value" "TS_Jack_3.5mm_Sw"
 			(at 73.025 17.78 0)
 			(effects
 				(font
@@ -5167,7 +5363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
 			(at 73.66 24.13 0)
 			(effects
 				(font
@@ -5195,7 +5391,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
 		(at 199.39 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5212,7 +5408,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_6.35mm"
+		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 198.755 35.56 0)
 			(effects
 				(font
@@ -5238,7 +5434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 199.39 41.91 0)
 			(effects
 				(font
@@ -5266,7 +5462,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Synth_Stuff:Banana_Jack")
 		(at 205.74 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5311,7 +5507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point to solder Banana Jack to"
 			(at 205.74 87.63 0)
 			(effects
 				(font
@@ -5333,7 +5529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
 		(at 93.98 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5350,7 +5546,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_6.35mm"
+		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 93.345 99.06 0)
 			(effects
 				(font
@@ -5376,7 +5572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 93.98 105.41 0)
 			(effects
 				(font
@@ -5404,7 +5600,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Synth_Stuff:Banana_Jack")
 		(at 54.61 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5449,7 +5645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point to solder Banana Jack to"
 			(at 54.61 151.13 0)
 			(effects
 				(font
@@ -5537,7 +5733,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Synth_Stuff:Banana_Jack")
 		(at 190.5 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5582,7 +5778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point to solder Banana Jack to"
 			(at 190.5 87.63 0)
 			(effects
 				(font
@@ -5670,7 +5866,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
 		(at 73.66 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5687,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_3.5mm"
+		(property "Value" "TS_Jack_3.5mm_Sw"
 			(at 73.025 158.75 0)
 			(effects
 				(font
@@ -5713,7 +5909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
 			(at 73.66 165.1 0)
 			(effects
 				(font
@@ -5741,7 +5937,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Synth_Stuff:Banana_Jack")
 		(at 160.02 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5786,7 +5982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point to solder Banana Jack to"
 			(at 160.02 67.31 0)
 			(effects
 				(font
@@ -5874,7 +6070,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_DPDT")
+		(lib_id "Synth_Stuff:Switch_DPDT")
 		(at 41.91 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5917,7 +6113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Momentary Switch, dual pole double throw"
+		(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
 			(at 41.91 170.18 0)
 			(effects
 				(font
@@ -5954,7 +6150,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
 		(at 93.98 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5971,7 +6167,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_6.35mm"
+		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 93.345 74.93 0)
 			(effects
 				(font
@@ -5997,7 +6193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 93.98 81.28 0)
 			(effects
 				(font
@@ -6025,7 +6221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
 		(at 73.66 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6042,7 +6238,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_3.5mm"
+		(property "Value" "TS_Jack_3.5mm_Sw"
 			(at 73.025 99.06 0)
 			(effects
 				(font
@@ -6068,7 +6264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
 			(at 73.66 105.41 0)
 			(effects
 				(font
@@ -6096,7 +6292,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
 		(at 199.39 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6113,7 +6309,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_6.35mm"
+		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 198.755 57.15 0)
 			(effects
 				(font
@@ -6139,7 +6335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 199.39 63.5 0)
 			(effects
 				(font
@@ -6299,7 +6495,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
 		(at 179.07 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6316,7 +6512,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_3.5mm"
+		(property "Value" "TS_Jack_3.5mm_Sw"
 			(at 178.435 57.15 0)
 			(effects
 				(font
@@ -6342,7 +6538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
 			(at 179.07 63.5 0)
 			(effects
 				(font
@@ -6436,7 +6632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Synth_Stuff:Banana_Jack")
 		(at 54.61 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6481,7 +6677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point to solder Banana Jack to"
 			(at 54.61 27.94 0)
 			(effects
 				(font
@@ -6635,7 +6831,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
 		(at 93.98 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6652,7 +6848,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_6.35mm"
+		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 93.345 57.15 0)
 			(effects
 				(font
@@ -6678,7 +6874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 93.98 63.5 0)
 			(effects
 				(font
@@ -6706,7 +6902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
 		(at 73.66 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6723,7 +6919,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_3.5mm"
+		(property "Value" "TS_Jack_3.5mm_Sw"
 			(at 73.025 116.84 0)
 			(effects
 				(font
@@ -6749,7 +6945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
 			(at 73.66 123.19 0)
 			(effects
 				(font
@@ -6777,7 +6973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Synth_Stuff:Banana_Jack")
 		(at 160.02 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6822,7 +7018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point to solder Banana Jack to"
 			(at 160.02 45.72 0)
 			(effects
 				(font
@@ -6844,7 +7040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
 		(at 73.66 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6861,7 +7057,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_3.5mm"
+		(property "Value" "TS_Jack_3.5mm_Sw"
 			(at 73.025 74.93 0)
 			(effects
 				(font
@@ -6887,7 +7083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
 			(at 73.66 81.28 0)
 			(effects
 				(font
@@ -6981,7 +7177,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
 		(at 93.98 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6998,7 +7194,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_6.35mm"
+		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 93.345 158.75 0)
 			(effects
 				(font
@@ -7024,7 +7220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 93.98 165.1 0)
 			(effects
 				(font
@@ -7052,7 +7248,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Synth_Stuff:Banana_Jack")
 		(at 54.61 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7097,7 +7293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point to solder Banana Jack to"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -7119,7 +7315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
 		(at 93.98 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7136,7 +7332,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_6.35mm"
+		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 93.345 35.56 0)
 			(effects
 				(font
@@ -7162,7 +7358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 93.98 41.91 0)
 			(effects
 				(font
@@ -7190,7 +7386,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
 		(at 93.98 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7207,7 +7403,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_6.35mm"
+		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 93.345 17.78 0)
 			(effects
 				(font
@@ -7233,7 +7429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 93.98 24.13 0)
 			(effects
 				(font
@@ -7261,7 +7457,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_DPDT")
+		(lib_id "Synth_Stuff:Switch_DPDT")
 		(at 41.91 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7304,7 +7500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Momentary Switch, dual pole double throw"
+		(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
 			(at 41.91 86.36 0)
 			(effects
 				(font
@@ -7341,7 +7537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Synth_Stuff:Banana_Jack")
 		(at 54.61 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7386,7 +7582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point to solder Banana Jack to"
 			(at 54.61 191.77 0)
 			(effects
 				(font
@@ -7408,7 +7604,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
 		(at 73.66 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7425,7 +7621,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_3.5mm"
+		(property "Value" "TS_Jack_3.5mm_Sw"
 			(at 73.025 181.61 0)
 			(effects
 				(font
@@ -7451,7 +7647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
 			(at 73.66 187.96 0)
 			(effects
 				(font
@@ -7479,7 +7675,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_DPDT")
+		(lib_id "Synth_Stuff:Switch_DPDT")
 		(at 41.91 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7522,7 +7718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Momentary Switch, dual pole double throw"
+		(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
 			(at 41.91 46.99 0)
 			(effects
 				(font
@@ -7559,7 +7755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Synth_Stuff:Banana_Jack")
 		(at 54.61 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7604,7 +7800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point to solder Banana Jack to"
 			(at 54.61 67.31 0)
 			(effects
 				(font
@@ -7626,7 +7822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "Synth_Stuff:Banana_Jack")
 		(at 160.02 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7671,7 +7867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Test Point to solder Banana Jack to"
 			(at 160.02 87.63 0)
 			(effects
 				(font
@@ -7693,7 +7889,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
 		(at 73.66 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7710,7 +7906,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_3.5mm"
+		(property "Value" "TS_Jack_3.5mm_Sw"
 			(at 73.025 57.15 0)
 			(effects
 				(font
@@ -7736,7 +7932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
 			(at 73.66 63.5 0)
 			(effects
 				(font
@@ -7830,7 +8026,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2_SwitchT")
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
 		(at 93.98 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7847,7 +8043,7 @@
 				)
 			)
 		)
-		(property "Value" "TS_Jack_6.35mm"
+		(property "Value" "TS_Jack_6.35mm_Sw"
 			(at 93.345 116.84 0)
 			(effects
 				(font
@@ -7873,7 +8069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
 			(at 93.98 123.19 0)
 			(effects
 				(font
@@ -7901,7 +8097,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_DPDT")
+		(lib_id "Synth_Stuff:Switch_DPDT")
 		(at 41.91 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7944,7 +8140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Momentary Switch, dual pole double throw"
+		(property "Description" "DPDT switch, can be ON-ON or ON-OFF-ON"
 			(at 41.91 128.27 0)
 			(effects
 				(font
