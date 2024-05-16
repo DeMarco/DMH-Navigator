@@ -1182,6 +1182,158 @@
 				)
 			)
 		)
+		(symbol "Synth_Stuff:TS_Jack_6.35mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS_Jack_6.35mm"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TS_Jack_6.35mm_0_1"
+				(rectangle
+					(start -3.81 0)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TS_Jack_6.35mm_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Synth_Stuff:TS_Jack_6.35mm_Sw"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5529,6 +5681,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm")
+		(at 251.46 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38ba8890-bad6-498e-9b35-fe7adadc5561")
+		(property "Reference" "J23"
+			(at 250.825 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm"
+			(at 250.825 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+			(at 251.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T"
+			(uuid "5ab1790f-4423-4335-b93a-dd8709232ec6")
+		)
+		(pin "S"
+			(uuid "bc2d3ade-73f5-4e9d-a2d2-e46944172745")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
 		(at 93.98 105.41 0)
 		(unit 1)
@@ -7242,116 +7462,6 @@
 			(project "Jack Converter"
 				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
 					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Synth_Stuff:Eurorack_Power_Connector_16Pin")
-		(at 243.84 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf4ad2b6-6dda-4aa5-aefc-b7f723555d82")
-		(property "Reference" "J23"
-			(at 245.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IDC_02x08"
-			(at 245.11 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
-			(at 243.84 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IDC jack, 2x8 pins, row a carries same signals as row b."
-			(at 243.84 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6b"
-			(uuid "f789de12-098b-4cc8-81af-be27c33e1810")
-		)
-		(pin "1b"
-			(uuid "0c358629-681d-48a3-86ab-2693f8acb2e1")
-		)
-		(pin "4b"
-			(uuid "efeb53f1-1e95-4124-b1c7-030c7c169341")
-		)
-		(pin "7b"
-			(uuid "8fa667c9-6df4-4ef9-959c-1771bc115f54")
-		)
-		(pin "3a"
-			(uuid "3bb0e507-1aae-49a4-b4c1-9cb142bd9296")
-		)
-		(pin "5b"
-			(uuid "00a8278a-042e-46c0-9b77-aad1bae54e53")
-		)
-		(pin "2a"
-			(uuid "c0bf68f7-1029-4d48-a4fc-6e29f376351c")
-		)
-		(pin "5a"
-			(uuid "f57ca596-445c-44a1-945b-97ad5d1ad0fb")
-		)
-		(pin "8a"
-			(uuid "c8e29d62-56ae-4236-b76a-661a4276c6b1")
-		)
-		(pin "6a"
-			(uuid "f40d90cc-798f-484e-99ba-c238157addd1")
-		)
-		(pin "1a"
-			(uuid "8458d6cd-fce9-4ec7-90ca-f839fa2bcece")
-		)
-		(pin "4a"
-			(uuid "0ffb9c2c-8aa0-4ad2-b89a-f7c5d29a691c")
-		)
-		(pin "2b"
-			(uuid "62e4416e-98f6-46f0-9fc5-d27198e1afd6")
-		)
-		(pin "3b"
-			(uuid "3dfdce77-2d9e-4f5b-a78c-c184a760d96e")
-		)
-		(pin "8b"
-			(uuid "5f008279-9b37-404f-a1f5-0c7654c5e9c0")
-		)
-		(pin "7a"
-			(uuid "704d3dbb-7a71-4e41-9a58-e16a07854a31")
-		)
-		(instances
-			(project "Jack Converter"
-				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
-					(reference "J23")
 					(unit 1)
 				)
 			)
