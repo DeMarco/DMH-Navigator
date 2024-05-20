@@ -2123,6 +2123,12 @@
 		)
 	)
 	(junction
+		(at 100.33 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00137ca7-107d-43c3-8cf5-9c1a767805e6")
+	)
+	(junction
 		(at 205.74 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2145,6 +2151,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "117001dc-15d8-49b7-9e9e-4bcf5a6d9322")
+	)
+	(junction
+		(at 80.01 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11cfd690-0260-4b2f-a5f5-ba64d516cb0f")
 	)
 	(junction
 		(at 33.02 93.98)
@@ -2419,6 +2431,10 @@
 		(uuid "139ab2bf-6875-450b-8ec1-3b802f3df2bc")
 	)
 	(no_connect
+		(at 99.06 172.72)
+		(uuid "1d166ac1-cafa-42d4-8a8f-1408be261060")
+	)
+	(no_connect
 		(at 99.06 44.45)
 		(uuid "1d1b26dc-5c74-4ccc-b104-c33a453516f4")
 	)
@@ -2477,6 +2493,10 @@
 	(no_connect
 		(at 78.74 125.73)
 		(uuid "c716e658-585a-4386-a052-784987e4fe72")
+	)
+	(no_connect
+		(at 78.74 172.72)
+		(uuid "d20eeff1-5ff7-4d47-88e2-720831a53f07")
 	)
 	(no_connect
 		(at 204.47 44.45)
@@ -2926,6 +2946,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 167.64) (xy 78.74 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ce93eb-699b-4ee3-9b57-5977f10205a1")
+	)
+	(wire
+		(pts
 			(xy 80.01 78.74) (xy 78.74 78.74)
 		)
 		(stroke
@@ -3156,6 +3186,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 165.1) (xy 100.33 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc5e59a-70bb-4ef6-a65f-157929e37e77")
+	)
+	(wire
+		(pts
 			(xy 100.33 105.41) (xy 100.33 111.76)
 		)
 		(stroke
@@ -3276,6 +3316,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 170.18) (xy 100.33 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c33cce-1a48-40c5-90a0-ffa05dececdf")
+	)
+	(wire
+		(pts
 			(xy 100.33 105.41) (xy 99.06 105.41)
 		)
 		(stroke
@@ -3283,6 +3333,16 @@
 			(type default)
 		)
 		(uuid "514bf7ae-1910-4e83-8703-ab7bc1c2d4ec")
+	)
+	(wire
+		(pts
+			(xy 100.33 165.1) (xy 100.33 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cefb72-24c8-44db-92ce-1ee74900089c")
 	)
 	(wire
 		(pts
@@ -3736,6 +3796,36 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 170.18) (xy 80.01 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86311971-7de3-4dad-8600-5887c7db43c4")
+	)
+	(wire
+		(pts
+			(xy 99.06 167.64) (xy 100.33 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f60850-8d4c-471c-80dc-39c6eeb072c3")
+	)
+	(wire
+		(pts
+			(xy 80.01 176.53) (xy 100.33 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89082e42-55bd-4f10-9cb0-7b132c91e3d3")
+	)
+	(wire
+		(pts
 			(xy 185.42 36.83) (xy 205.74 36.83)
 		)
 		(stroke
@@ -3763,6 +3853,16 @@
 			(type default)
 		)
 		(uuid "8cc39658-a88a-4b2c-b3bc-b0f6d4ecffeb")
+	)
+	(wire
+		(pts
+			(xy 54.61 176.53) (xy 80.01 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3a1440-b6fe-42b0-8c26-f459bce5d618")
 	)
 	(wire
 		(pts
@@ -3873,6 +3973,16 @@
 			(type default)
 		)
 		(uuid "98ada574-d68e-4e8a-a5de-fb0ca662a0a8")
+	)
+	(wire
+		(pts
+			(xy 100.33 167.64) (xy 114.3 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d68043-d835-4aa3-94c5-85088f1388c3")
 	)
 	(wire
 		(pts
@@ -4126,6 +4236,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 176.53) (xy 54.61 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3470194-57f5-4b5c-8a93-87470cf6a72a")
+	)
+	(wire
+		(pts
 			(xy 80.01 129.54) (xy 100.33 129.54)
 		)
 		(stroke
@@ -4143,6 +4263,16 @@
 			(type default)
 		)
 		(uuid "b833f5c8-7408-4d30-a02c-8ef412011a51")
+	)
+	(wire
+		(pts
+			(xy 80.01 165.1) (xy 80.01 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88a46f9-f8ec-4851-be07-7a7c9ba4ebce")
 	)
 	(wire
 		(pts
@@ -4476,6 +4606,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 170.18) (xy 99.06 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e331685c-1f05-4b8d-9911-acc0629b0da7")
+	)
+	(wire
+		(pts
 			(xy 210.82 97.79) (xy 210.82 48.26)
 		)
 		(stroke
@@ -4506,6 +4646,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 170.18) (xy 80.01 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86b9548-9aab-4879-bfe3-d20533430972")
+	)
+	(wire
+		(pts
 			(xy 33.02 39.37) (xy 33.02 30.48)
 		)
 		(stroke
@@ -4513,6 +4663,16 @@
 			(type default)
 		)
 		(uuid "eaece6de-f08d-4765-80f7-d6bbe3821e6c")
+	)
+	(wire
+		(pts
+			(xy 114.3 167.64) (xy 114.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7d481b-7c6b-4044-9f91-3b669b045581")
 	)
 	(wire
 		(pts
@@ -4736,6 +4896,77 @@
 	)
 	(symbol
 		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
+		(at 73.66 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02ef7034-472d-4156-9ed3-bbedd5aca649")
+		(property "Reference" "J15"
+			(at 73.025 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_3.5mm_Sw"
+			(at 73.025 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:AMPHENOL_ACJM-MV35-2S"
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 3.5mm, 1/8inch"
+			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "27985c78-4e07-4c81-bb62-882720d0da12")
+		)
+		(pin "S"
+			(uuid "78629491-b2b4-4b82-bd24-7087e64c1ab7")
+		)
+		(pin "T"
+			(uuid "f12be794-fe4e-4aec-b6a0-eb889979f37f")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_3.5mm_Sw")
 		(at 179.07 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4744,7 +4975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1acd09e8-fc88-4124-8c29-4e9a70666db5")
-		(property "Reference" "J15"
+		(property "Reference" "J17"
 			(at 178.435 33.02 0)
 			(effects
 				(font
@@ -4799,7 +5030,7 @@
 		(instances
 			(project "Jack Converter"
 				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
-					(reference "J15")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -5209,7 +5440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d172b56-30b4-4017-a259-69c8047cea07")
-		(property "Reference" "J16"
+		(property "Reference" "J18"
 			(at 198.755 33.02 0)
 			(effects
 				(font
@@ -5264,7 +5495,144 @@
 		(instances
 			(project "Jack Converter"
 				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:TS_Jack_6.35mm_Sw")
+		(at 93.98 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "397f5bb3-78e7-48cc-b91a-3a7babafeaff")
+		(property "Reference" "J16"
+			(at 93.345 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS_Jack_6.35mm_Sw"
+			(at 93.345 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SynthStuff:CUI_MJ-63052A"
+			(at 93.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling), 6.35mm, 1/4inch"
+			(at 93.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TN"
+			(uuid "f795064a-dade-4d1a-851d-e67b9f9680ab")
+		)
+		(pin "S"
+			(uuid "e94e9692-b1ed-4897-901b-4da209963dc8")
+		)
+		(pin "T"
+			(uuid "4c88a92d-1e7b-4401-ac37-18f963eafeb5")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
 					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cd2b1f8-4523-4ace-b237-a8bf9a97504f")
+		(property "Reference" "#PWR01"
+			(at 114.3 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d74ec787-a37c-4287-b57a-f7c84a1541fe")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5758,7 +6126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80101b7b-78b4-4a34-b14e-8f01aee0ed69")
-		(property "Reference" "J18"
+		(property "Reference" "J20"
 			(at 198.755 54.61 0)
 			(effects
 				(font
@@ -5813,7 +6181,7 @@
 		(instances
 			(project "Jack Converter"
 				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
-					(reference "J18")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -5961,7 +6329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9033e790-40ea-49e8-a726-710e206f457f")
-		(property "Reference" "J17"
+		(property "Reference" "J19"
 			(at 178.435 54.61 0)
 			(effects
 				(font
@@ -6016,7 +6384,7 @@
 		(instances
 			(project "Jack Converter"
 				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
-					(reference "J17")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -6633,6 +7001,73 @@
 			(project "Jack Converter"
 				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synth_Stuff:Banana_Jack")
+		(at 54.61 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8560c9b-bc7b-4de7-92ba-0ec9c1a4ed05")
+		(property "Reference" "TP5"
+			(at 57.15 169.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Banana_Jack"
+			(at 57.15 171.9579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 59.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point to solder Banana Jack to"
+			(at 54.61 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e56ee2e-58c3-4955-8a8a-4ca69d724789")
+		)
+		(instances
+			(project "Jack Converter"
+				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
