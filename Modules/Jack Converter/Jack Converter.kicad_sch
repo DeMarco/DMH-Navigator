@@ -43,44 +43,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 60.96 49.53)
-		(size 48.26 29.21)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a0107b98-77ab-4fe9-88eb-e426e18ca8c4")
-		(property "Sheetname" "Panel"
-			(at 60.96 48.8184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Panel.kicad_sch"
-			(at 60.96 79.3246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Jack Converter"
-				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc"
-					(page "2")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
