@@ -4,109 +4,13 @@
 	(generator_version "8.0")
 	(uuid "db7ad9c6-6ec6-40eb-95e9-2fe341a62ab2")
 	(paper "A4")
+	(title_block
+		(title "Adapter Mult Mk1")
+		(date "2024-05-26")
+		(rev "1")
+		(company "DMH")
+	)
 	(lib_symbols
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Synth_Stuff:Banana_Jack"
 			(pin_numbers hide)
 			(pin_names
@@ -2441,12 +2345,6 @@
 		(uuid "abb2a6d4-4d50-4559-8f5f-19d68a8571a1")
 	)
 	(junction
-		(at 219.71 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad469ddf-09cf-4bf2-a289-0867ab933dc5")
-	)
-	(junction
 		(at 160.02 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4461,16 +4359,6 @@
 			(type default)
 		)
 		(uuid "c3d7b64e-1871-4aea-97aa-3fe761d4be21")
-	)
-	(wire
-		(pts
-			(xy 219.71 60.96) (xy 229.87 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f051d7-74e3-4ef5-a43e-5b02e60fec7c")
 	)
 	(wire
 		(pts
@@ -6503,73 +6391,6 @@
 			(project "Jack Converter"
 				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
 					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 229.87 58.42 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "921580a4-51a1-4e00-9650-a45f1ef62c75")
-		(property "Reference" "H1"
-			(at 232.41 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 232.41 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SynthStuff:MountingHole_3.2mm_M3_Pad4mm"
-			(at 229.87 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 229.87 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a17cd246-496d-405f-9a07-75da44f222c8")
-		)
-		(instances
-			(project "Jack Converter"
-				(path "/b497d75e-0918-4e9c-ae43-36360bc031dc/01b3bf80-fded-40b5-ad81-2678b7ef607a"
-					(reference "H1")
 					(unit 1)
 				)
 			)
