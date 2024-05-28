@@ -236,7 +236,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "SynthStuff"
+    ]
   },
   "meta": {
     "filename": "Buffered Mult Panel.kicad_pro",
@@ -381,6 +383,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "833651b9-9553-4eea-8a0e-30753753a6ae",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
