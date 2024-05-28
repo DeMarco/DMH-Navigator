@@ -1,3 +1,6 @@
 [submodule "Modules/Jack Converter/Libraries/SynthStuff"]
 	path = Modules/Jack Converter/Libraries/SynthStuff
 	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
+[submodule "Modules/Buffered Mult Panel/Libraries/SynthStuff"]
+	path = Modules/Buffered Mult Panel/Libraries/SynthStuff
+	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
