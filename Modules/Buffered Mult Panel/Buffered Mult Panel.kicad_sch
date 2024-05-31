@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "833651b9-9553-4eea-8a0e-30753753a6ae")
 	(paper "A4")
+	(title_block
+		(title "Buffered Mult PCB")
+		(date "2024-05-31")
+		(rev "1")
+		(company "DMH")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
