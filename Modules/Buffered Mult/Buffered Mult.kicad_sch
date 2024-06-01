@@ -26,7 +26,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_Jack6.35mm"
+			(property "Value" "SIGNAL NAME"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -52,13 +52,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
+			(property "Description" "Jack 6.35mm"
+				(at 0 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole toggle switch"
@@ -80,6 +79,87 @@
 				)
 			)
 			(symbol "MountingHole_Jack6.35mm_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SynthStuff:MountingHole_Jack6.35mm_Output"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SIGNAL NAME"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jack 6.35mm Output"
+				(at 0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole toggle switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Jack6.35mm_Output_0_1"
 				(circle
 					(center 0 0)
 					(radius 1.27)
@@ -372,7 +452,7 @@
 	)
 	(symbol
 		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
-		(at 152.4 101.6 0)
+		(at 190.5 88.9 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -381,7 +461,7 @@
 		(fields_autoplaced yes)
 		(uuid "108becb9-8167-4e94-b15d-2eaae598e850")
 		(property "Reference" "H14"
-			(at 154.94 100.3299 0)
+			(at 193.04 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -389,8 +469,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 154.94 102.8699 0)
+		(property "Value" "Input"
+			(at 193.04 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -399,7 +479,7 @@
 			)
 		)
 		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
-			(at 152.4 101.6 0)
+			(at 190.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -408,7 +488,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 101.6 0)
+			(at 190.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -416,13 +496,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 152.4 101.6 0)
+		(property "Description" "Jack 6.35mm"
+			(at 193.04 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -435,7 +515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
 		(at 152.4 38.1 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -445,7 +525,7 @@
 		(fields_autoplaced yes)
 		(uuid "163847b7-3c39-4637-b652-a9c864b0f2b2")
 		(property "Reference" "H7"
-			(at 154.94 36.8299 0)
+			(at 154.94 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -453,8 +533,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 154.94 39.3699 0)
+		(property "Value" "Output"
+			(at 154.94 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,7 +542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
 			(at 152.4 38.1 0)
 			(effects
 				(font
@@ -480,13 +560,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 152.4 38.1 0)
+		(property "Description" "Jack 6.35mm Output"
+			(at 154.94 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -566,7 +646,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
 		(at 152.4 50.8 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -576,7 +656,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f5f6a21-fce1-4da5-9a78-61c1ecb8ae3e")
 		(property "Reference" "H9"
-			(at 154.94 49.5299 0)
+			(at 154.94 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -584,8 +664,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 154.94 52.0699 0)
+		(property "Value" "Output"
+			(at 154.94 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,7 +673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
 			(at 152.4 50.8 0)
 			(effects
 				(font
@@ -611,13 +691,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 152.4 50.8 0)
+		(property "Description" "Jack 6.35mm Output"
+			(at 154.94 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -630,8 +710,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
-		(at 190.5 101.6 0)
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(at 190.5 114.3 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -640,7 +720,7 @@
 		(fields_autoplaced yes)
 		(uuid "36a033e9-0205-4501-85e5-dbde82eb1d58")
 		(property "Reference" "H18"
-			(at 193.04 100.3299 0)
+			(at 193.04 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -648,8 +728,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 193.04 102.8699 0)
+		(property "Value" "Output"
+			(at 193.04 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -657,8 +737,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
-			(at 190.5 101.6 0)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+			(at 190.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -667,7 +747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 101.6 0)
+			(at 190.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -675,13 +755,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 190.5 101.6 0)
+		(property "Description" "Jack 6.35mm Output"
+			(at 193.04 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -704,7 +784,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fb488ac-90e4-46f4-a1a1-6be61524953d")
 		(property "Reference" "H13"
-			(at 154.94 87.6299 0)
+			(at 154.94 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -712,8 +792,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 154.94 90.1699 0)
+		(property "Value" "Input"
+			(at 154.94 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,13 +819,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 152.4 88.9 0)
+		(property "Description" "Jack 6.35mm"
+			(at 154.94 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -968,7 +1048,7 @@
 		(fields_autoplaced yes)
 		(uuid "5205b12b-c300-4524-a005-65d4253df17e")
 		(property "Reference" "H6"
-			(at 193.04 24.1299 0)
+			(at 193.04 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,8 +1056,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 193.04 26.6699 0)
+		(property "Value" "Input"
+			(at 193.04 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,13 +1083,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 190.5 25.4 0)
+		(property "Description" "Jack 6.35mm"
+			(at 193.04 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -1022,8 +1102,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
-		(at 152.4 114.3 0)
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(at 152.4 101.6 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1032,7 +1112,7 @@
 		(fields_autoplaced yes)
 		(uuid "68b01d88-d5e6-4da1-ba28-7d121e9dda8b")
 		(property "Reference" "H15"
-			(at 154.94 113.0299 0)
+			(at 154.94 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,8 +1120,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 154.94 115.5699 0)
+		(property "Value" "Output"
+			(at 154.94 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,8 +1129,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
-			(at 152.4 114.3 0)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 114.3 0)
+			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,13 +1147,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 152.4 114.3 0)
+		(property "Description" "Jack 6.35mm Output"
+			(at 154.94 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -1086,7 +1166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
 		(at 190.5 127 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1096,7 +1176,7 @@
 		(fields_autoplaced yes)
 		(uuid "7419b835-2439-459c-bd7e-d6acf445905e")
 		(property "Reference" "H20"
-			(at 193.04 125.7299 0)
+			(at 193.04 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,8 +1184,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 193.04 128.2699 0)
+		(property "Value" "Output"
+			(at 193.04 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,7 +1193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
 			(at 190.5 127 0)
 			(effects
 				(font
@@ -1131,13 +1211,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 190.5 127 0)
+		(property "Description" "Jack 6.35mm Output"
+			(at 193.04 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -1150,7 +1230,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
 		(at 190.5 63.5 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1160,7 +1240,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e70b68a-ca5e-47f4-a942-29afba4429e7")
 		(property "Reference" "H12"
-			(at 193.04 62.2299 0)
+			(at 193.04 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,8 +1248,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 193.04 64.7699 0)
+		(property "Value" "Output"
+			(at 193.04 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,7 +1257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
 			(at 190.5 63.5 0)
 			(effects
 				(font
@@ -1195,13 +1275,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 190.5 63.5 0)
+		(property "Description" "Jack 6.35mm Output"
+			(at 193.04 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -1214,7 +1294,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
 		(at 152.4 63.5 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1224,7 +1304,7 @@
 		(fields_autoplaced yes)
 		(uuid "913dfde9-8abc-400d-bddf-a0a5d5b70f19")
 		(property "Reference" "H10"
-			(at 154.94 62.2299 0)
+			(at 154.94 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,8 +1312,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 154.94 64.7699 0)
+		(property "Value" "Output"
+			(at 154.94 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,7 +1321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
 			(at 152.4 63.5 0)
 			(effects
 				(font
@@ -1259,13 +1339,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 152.4 63.5 0)
+		(property "Description" "Jack 6.35mm Output"
+			(at 154.94 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -1278,7 +1358,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
 		(at 190.5 50.8 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1288,7 +1368,7 @@
 		(fields_autoplaced yes)
 		(uuid "91ea0014-1f6b-4976-b9b8-edce915c2d24")
 		(property "Reference" "H11"
-			(at 193.04 49.5299 0)
+			(at 193.04 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,8 +1376,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 193.04 52.0699 0)
+		(property "Value" "Output"
+			(at 193.04 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1305,7 +1385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
 			(at 190.5 50.8 0)
 			(effects
 				(font
@@ -1323,13 +1403,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 190.5 50.8 0)
+		(property "Description" "Jack 6.35mm Output"
+			(at 193.04 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -1342,8 +1422,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
-		(at 190.5 88.9 0)
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(at 152.4 114.3 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1352,7 +1432,7 @@
 		(fields_autoplaced yes)
 		(uuid "96045b81-6e58-44e0-861d-f72cb432ca5c")
 		(property "Reference" "H17"
-			(at 193.04 87.6299 0)
+			(at 154.94 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,8 +1440,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 193.04 90.1699 0)
+		(property "Value" "Output"
+			(at 154.94 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,8 +1449,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
-			(at 190.5 88.9 0)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1459,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 88.9 0)
+			(at 152.4 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,13 +1467,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 190.5 88.9 0)
+		(property "Description" "Jack 6.35mm Output"
+			(at 154.94 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -1406,7 +1486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
 		(at 190.5 38.1 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1416,7 +1496,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1f23e4e-347e-4767-83d7-72f61c1f6624")
 		(property "Reference" "H8"
-			(at 193.04 36.8299 0)
+			(at 193.04 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,8 +1504,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 193.04 39.3699 0)
+		(property "Value" "Output"
+			(at 193.04 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,7 +1513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
 			(at 190.5 38.1 0)
 			(effects
 				(font
@@ -1451,13 +1531,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 190.5 38.1 0)
+		(property "Description" "Jack 6.35mm Output"
+			(at 193.04 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -1537,8 +1617,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
-		(at 190.5 114.3 0)
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(at 152.4 127 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1547,7 +1627,7 @@
 		(fields_autoplaced yes)
 		(uuid "c423c2ed-ed59-4a89-be4e-be5277a4465a")
 		(property "Reference" "H19"
-			(at 193.04 113.0299 0)
+			(at 154.94 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,8 +1635,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 193.04 115.5699 0)
+		(property "Value" "Output"
+			(at 154.94 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,8 +1644,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
-			(at 190.5 114.3 0)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+			(at 152.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1654,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 114.3 0)
+			(at 152.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,13 +1662,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 190.5 114.3 0)
+		(property "Description" "Jack 6.35mm Output"
+			(at 154.94 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -1601,8 +1681,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
-		(at 152.4 127 0)
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(at 190.5 101.6 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1611,7 +1691,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee362a82-af3e-4a94-9a5f-4f84d682229e")
 		(property "Reference" "H16"
-			(at 154.94 125.7299 0)
+			(at 193.04 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,8 +1699,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 154.94 128.2699 0)
+		(property "Value" "Output"
+			(at 193.04 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,8 +1708,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
-			(at 152.4 127 0)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,7 +1718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 127 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,13 +1726,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 152.4 127 0)
+		(property "Description" "Jack 6.35mm Output"
+			(at 193.04 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances
@@ -1675,7 +1755,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5d519bf-262a-480f-8149-6d7972210a97")
 		(property "Reference" "H5"
-			(at 154.94 24.1299 0)
+			(at 154.94 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,8 +1763,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Jack6.35mm"
-			(at 154.94 26.6699 0)
+		(property "Value" "Input"
+			(at 154.94 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,13 +1790,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 152.4 25.4 0)
+		(property "Description" "Jack 6.35mm"
+			(at 154.94 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(instances

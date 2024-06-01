@@ -440,7 +440,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "SynthStuff"
+    ]
   },
   "meta": {
     "filename": "Buffered Mult.kicad_pro",
