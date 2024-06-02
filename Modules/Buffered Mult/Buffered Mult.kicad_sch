@@ -11,10 +11,10 @@
 		(company "DMH")
 	)
 	(lib_symbols
-		(symbol "SynthStuff:MountingHole_Jack6.35mm"
+		(symbol "SynthStuff:MountingHole_Jack6.35mm_Output_v2"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -34,88 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jack 6.35mm"
-				(at 0 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole toggle switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Jack6.35mm_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "SynthStuff:MountingHole_Jack6.35mm_Output"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SIGNAL NAME"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+			(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -159,7 +78,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_Jack6.35mm_Output_0_1"
+			(symbol "MountingHole_Jack6.35mm_Output_v2_0_1"
 				(circle
 					(center 0 0)
 					(radius 1.27)
@@ -169,6 +88,127 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Jack6.35mm_Output_v2_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SynthStuff:MountingHole_Jack6.35mm_v2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SIGNAL NAME"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jack 6.35mm"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole toggle switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Jack6.35mm_v2_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Jack6.35mm_v2_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -373,10 +413,100 @@
 		)
 	)
 	(junction
+		(at 148.59 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d75dc0d-b45b-4025-890c-73e6280e6310")
+	)
+	(junction
+		(at 186.69 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23401c89-6d10-4db2-a931-eeb416f74a61")
+	)
+	(junction
+		(at 186.69 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3908a82e-363c-48a2-806d-d01ff21b5ab3")
+	)
+	(junction
+		(at 186.69 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d9d3af2-15ed-4b7e-ab2a-62c2e1adbecf")
+	)
+	(junction
+		(at 186.69 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cdee698-59bb-416b-817c-a82317659615")
+	)
+	(junction
 		(at 63.5 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d0de126-bcf4-41c1-8455-2c69ca0cac07")
+	)
+	(junction
+		(at 148.59 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d1d0503-775a-4cf1-9f3b-f5c8e6c96d9f")
+	)
+	(junction
+		(at 186.69 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88dfe5f8-9ca6-44b8-9499-d6e2f6cc4c9b")
+	)
+	(junction
+		(at 186.69 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94ef805b-dbcf-4bc8-9552-2acd293c723a")
+	)
+	(junction
+		(at 50.8 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9885dfce-7927-4fd1-a75f-3550e29ac48a")
+	)
+	(junction
+		(at 148.59 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99b82f9e-0406-47fd-9dc0-f4305364d32a")
+	)
+	(junction
+		(at 186.69 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a76ef3e2-8256-4dbd-8549-1fb36f748e59")
+	)
+	(junction
+		(at 148.59 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afde8376-b14b-4fc0-a776-b1f072d02b96")
+	)
+	(junction
+		(at 148.59 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0353109-eebe-4bd0-9396-fb08b4d56c74")
+	)
+	(junction
+		(at 148.59 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca380059-b41f-4901-94df-9e5cfadf5c2a")
+	)
+	(junction
+		(at 148.59 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cec3e736-5eaa-4a99-88d1-9369f74b5afa")
 	)
 	(junction
 		(at 63.5 67.31)
@@ -392,7 +522,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 88.9) (xy 50.8 80.01)
+			(xy 148.59 63.5) (xy 148.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bbdb098-8d58-42a5-9148-0f76b1a617c1")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 50.8 85.09)
 		)
 		(stroke
 			(width 0)
@@ -412,6 +552,46 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 85.09) (xy 50.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dee3e8a-1b3d-4bb2-bb36-fafbbbdec79c")
+	)
+	(wire
+		(pts
+			(xy 148.59 25.4) (xy 148.59 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7a67fb-0622-498d-bd33-1b19f1bf6cc2")
+	)
+	(wire
+		(pts
+			(xy 50.8 85.09) (xy 148.59 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e8c3857-ccb0-4f1b-8686-28aa4c23bc6b")
+	)
+	(wire
+		(pts
+			(xy 186.69 25.4) (xy 186.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cfc6c78-3af0-4c30-a105-dc093c7a9a05")
+	)
+	(wire
+		(pts
 			(xy 50.8 67.31) (xy 50.8 80.01)
 		)
 		(stroke
@@ -422,6 +602,106 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 88.9) (xy 186.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d02f27-966e-41f5-bd41-22003332aa27")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69cbf020-7626-467c-8b47-0e10e93136e6")
+	)
+	(wire
+		(pts
+			(xy 148.59 50.8) (xy 148.59 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dec929b-e27b-4cbf-8f22-9e6b06e31af2")
+	)
+	(wire
+		(pts
+			(xy 186.69 50.8) (xy 186.69 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a545ae-e31c-4d93-9c64-4ebf26801f98")
+	)
+	(wire
+		(pts
+			(xy 186.69 114.3) (xy 186.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79894e7d-6c2b-40f7-a73b-eebb0b715c85")
+	)
+	(wire
+		(pts
+			(xy 186.69 85.09) (xy 186.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c142964-b590-4de5-b903-de695e0c2e09")
+	)
+	(wire
+		(pts
+			(xy 148.59 85.09) (xy 148.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "905835fd-78e6-46ec-ac8b-86fb2d1d4652")
+	)
+	(wire
+		(pts
+			(xy 148.59 101.6) (xy 148.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e92127-7a8a-44ac-a81f-536342b86aee")
+	)
+	(wire
+		(pts
+			(xy 186.69 63.5) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46e3fe2-b8cd-4860-827a-65a93df78485")
+	)
+	(wire
+		(pts
+			(xy 186.69 101.6) (xy 186.69 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b774ea34-85dc-4301-8bc7-0a15fe52ce81")
+	)
+	(wire
+		(pts
 			(xy 63.5 67.31) (xy 50.8 67.31)
 		)
 		(stroke
@@ -429,6 +709,26 @@
 			(type default)
 		)
 		(uuid "bea7f34a-87a4-4952-b9fb-89c77242a031")
+	)
+	(wire
+		(pts
+			(xy 148.59 114.3) (xy 148.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d1dbe2-9dbd-4644-99d2-dd4f01e93493")
+	)
+	(wire
+		(pts
+			(xy 148.59 38.1) (xy 148.59 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8628364-37de-470c-98b6-417631f1a1d3")
 	)
 	(wire
 		(pts
@@ -450,8 +750,28 @@
 		)
 		(uuid "ed2732dd-8f47-41b3-bdbb-b73dbf408ee6")
 	)
+	(wire
+		(pts
+			(xy 186.69 38.1) (xy 186.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fdc2bf-b725-428f-9521-fd320504ce7a")
+	)
+	(wire
+		(pts
+			(xy 148.59 85.09) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd86843a-3d5a-47ed-8a77-6d28ea0d01a1")
+	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
 		(at 190.5 88.9 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -478,7 +798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v2"
 			(at 190.5 88.9 0)
 			(effects
 				(font
@@ -505,6 +825,9 @@
 				(justify left)
 			)
 		)
+		(pin "1"
+			(uuid "8dc80255-bfa9-43d2-8577-9d893f774f30")
+		)
 		(instances
 			(project "Buffered Mult"
 				(path "/23c91e78-a36c-4491-bf34-685d390339fc"
@@ -515,7 +838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
 		(at 152.4 38.1 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -542,7 +865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 			(at 152.4 38.1 0)
 			(effects
 				(font
@@ -568,6 +891,9 @@
 				)
 				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "4abbb9cc-9790-4ca2-9dbf-71fb06eddd5b")
 		)
 		(instances
 			(project "Buffered Mult"
@@ -646,7 +972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
 		(at 152.4 50.8 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -673,7 +999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 			(at 152.4 50.8 0)
 			(effects
 				(font
@@ -700,6 +1026,9 @@
 				(justify left)
 			)
 		)
+		(pin "1"
+			(uuid "74bbe5a3-1af9-4630-95b9-73c4e3aafe7d")
+		)
 		(instances
 			(project "Buffered Mult"
 				(path "/23c91e78-a36c-4491-bf34-685d390339fc"
@@ -710,7 +1039,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
 		(at 190.5 114.3 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -737,7 +1066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 			(at 190.5 114.3 0)
 			(effects
 				(font
@@ -764,6 +1093,9 @@
 				(justify left)
 			)
 		)
+		(pin "1"
+			(uuid "45718266-9fd2-46b4-84b4-dd0c226da0d5")
+		)
 		(instances
 			(project "Buffered Mult"
 				(path "/23c91e78-a36c-4491-bf34-685d390339fc"
@@ -774,7 +1106,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
 		(at 152.4 88.9 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -801,7 +1133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v2"
 			(at 152.4 88.9 0)
 			(effects
 				(font
@@ -827,6 +1159,9 @@
 				)
 				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "2fb32c15-e969-4c9a-a9cb-1148462d102a")
 		)
 		(instances
 			(project "Buffered Mult"
@@ -1038,7 +1373,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
 		(at 190.5 25.4 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1065,7 +1400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v2"
 			(at 190.5 25.4 0)
 			(effects
 				(font
@@ -1092,6 +1427,9 @@
 				(justify left)
 			)
 		)
+		(pin "1"
+			(uuid "5e3c526a-d9fa-4e0f-bee3-9a9cb55da856")
+		)
 		(instances
 			(project "Buffered Mult"
 				(path "/23c91e78-a36c-4491-bf34-685d390339fc"
@@ -1102,7 +1440,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
 		(at 152.4 101.6 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1129,7 +1467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 			(at 152.4 101.6 0)
 			(effects
 				(font
@@ -1156,6 +1494,9 @@
 				(justify left)
 			)
 		)
+		(pin "1"
+			(uuid "adda4f93-fcde-4762-a3e9-a578a2e656aa")
+		)
 		(instances
 			(project "Buffered Mult"
 				(path "/23c91e78-a36c-4491-bf34-685d390339fc"
@@ -1166,7 +1507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
 		(at 190.5 127 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1193,7 +1534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 			(at 190.5 127 0)
 			(effects
 				(font
@@ -1220,6 +1561,9 @@
 				(justify left)
 			)
 		)
+		(pin "1"
+			(uuid "fe8c35b3-023e-4acf-946d-1d4ba7896e87")
+		)
 		(instances
 			(project "Buffered Mult"
 				(path "/23c91e78-a36c-4491-bf34-685d390339fc"
@@ -1230,7 +1574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
 		(at 190.5 63.5 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1257,7 +1601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 			(at 190.5 63.5 0)
 			(effects
 				(font
@@ -1284,6 +1628,9 @@
 				(justify left)
 			)
 		)
+		(pin "1"
+			(uuid "764a49bc-f103-4cc7-8c88-419394a57e4a")
+		)
 		(instances
 			(project "Buffered Mult"
 				(path "/23c91e78-a36c-4491-bf34-685d390339fc"
@@ -1294,7 +1641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
 		(at 152.4 63.5 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1321,7 +1668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 			(at 152.4 63.5 0)
 			(effects
 				(font
@@ -1348,6 +1695,9 @@
 				(justify left)
 			)
 		)
+		(pin "1"
+			(uuid "d7560ac4-458d-4510-8603-63365c0eaf82")
+		)
 		(instances
 			(project "Buffered Mult"
 				(path "/23c91e78-a36c-4491-bf34-685d390339fc"
@@ -1358,7 +1708,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
 		(at 190.5 50.8 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1385,7 +1735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 			(at 190.5 50.8 0)
 			(effects
 				(font
@@ -1412,6 +1762,9 @@
 				(justify left)
 			)
 		)
+		(pin "1"
+			(uuid "9f564514-cd42-47a6-a27c-bcba521b08bb")
+		)
 		(instances
 			(project "Buffered Mult"
 				(path "/23c91e78-a36c-4491-bf34-685d390339fc"
@@ -1422,7 +1775,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
 		(at 152.4 114.3 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1449,7 +1802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -1476,6 +1829,9 @@
 				(justify left)
 			)
 		)
+		(pin "1"
+			(uuid "fdfb51f7-34a8-4f46-a5c9-76b735437076")
+		)
 		(instances
 			(project "Buffered Mult"
 				(path "/23c91e78-a36c-4491-bf34-685d390339fc"
@@ -1486,7 +1842,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
 		(at 190.5 38.1 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1513,7 +1869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 			(at 190.5 38.1 0)
 			(effects
 				(font
@@ -1539,6 +1895,9 @@
 				)
 				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "74256c1d-bd32-41bf-9ed8-4807cf62213f")
 		)
 		(instances
 			(project "Buffered Mult"
@@ -1617,7 +1976,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
 		(at 152.4 127 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1644,7 +2003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 			(at 152.4 127 0)
 			(effects
 				(font
@@ -1671,6 +2030,9 @@
 				(justify left)
 			)
 		)
+		(pin "1"
+			(uuid "2230e733-aaaa-4546-9d3e-2f28b5b28e70")
+		)
 		(instances
 			(project "Buffered Mult"
 				(path "/23c91e78-a36c-4491-bf34-685d390339fc"
@@ -1681,7 +2043,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
 		(at 190.5 101.6 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1708,7 +2070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -1735,6 +2097,9 @@
 				(justify left)
 			)
 		)
+		(pin "1"
+			(uuid "326f9e13-aa6c-4238-8b64-d0c2a050291e")
+		)
 		(instances
 			(project "Buffered Mult"
 				(path "/23c91e78-a36c-4491-bf34-685d390339fc"
@@ -1745,7 +2110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SynthStuff:MountingHole_Jack6.35mm")
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_v2")
 		(at 152.4 25.4 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1772,7 +2137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v2"
 			(at 152.4 25.4 0)
 			(effects
 				(font
@@ -1798,6 +2163,9 @@
 				)
 				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "aabd8c85-9491-4d4b-8e48-424666ae9231")
 		)
 		(instances
 			(project "Buffered Mult"
