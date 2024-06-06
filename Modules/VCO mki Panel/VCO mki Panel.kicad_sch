@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1ac843a2-b018-4f05-9c7c-f861332ffc39")
+	(paper "A4" portrait)
+	(title_block
+		(title "VCO mki Front Panel")
+		(date "2024-06-06")
+		(rev "1")
+		(company "DMH")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
