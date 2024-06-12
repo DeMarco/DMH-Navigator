@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SynthStuff:Banana_Jack_Cutout"
+			(property "Footprint" "SynthStuff:Banana_Jack_Cutout_v2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -93,10 +93,10 @@
 				)
 			)
 		)
-		(symbol "Synth_Stuff:MountingHole_Jack3.5mm"
+		(symbol "Synth_Stuff:MountingHole_Jack3.5mm_v2"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -108,7 +108,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_Jack3.5mm"
+			(property "Value" "SIGNAL NAME"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -116,7 +116,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout"
+			(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout_v2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -134,16 +134,15 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
+			(property "Description" "Jack 3.5mm"
+				(at 0 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "ki_keywords" "mounting hole toggle switch"
+			(property "ki_keywords" "mounting hole 3.5mm jack"
 				(at 0 0 0)
 				(effects
 					(font
@@ -161,7 +160,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_Jack3.5mm_0_1"
+			(symbol "MountingHole_Jack3.5mm_v2_0_1"
 				(circle
 					(center 0 0)
 					(radius 1.27)
@@ -171,6 +170,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Jack3.5mm_v2_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -459,6 +478,26 @@
 					)
 				)
 			)
+			(symbol "MountingHole_ToggleSwitch_1_1"
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 		)
 		(symbol "power:GND"
 			(power)
@@ -558,16 +597,148 @@
 		)
 	)
 	(junction
+		(at 222.25 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11b49e67-8724-4d09-9eb2-cdabf4b79509")
+	)
+	(junction
+		(at 222.25 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14b0bd1f-c218-428b-a991-9d8cbc55db15")
+	)
+	(junction
+		(at 190.5 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18eae1fd-aeaf-40d6-950a-70dc241882f7")
+	)
+	(junction
+		(at 190.5 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20ceaa9a-d0ef-4d37-bfcc-7edbd5f1d4b5")
+	)
+	(junction
+		(at 153.67 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2953b8a5-d607-489f-81b1-64401b0e4064")
+	)
+	(junction
+		(at 190.5 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b27a57c-38c7-4d44-bd19-572a40449afc")
+	)
+	(junction
+		(at 222.25 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c27e417-f60f-4654-8efa-aa85d1b1fc43")
+	)
+	(junction
+		(at 222.25 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fe33e3e-4e8d-453b-97a9-acbf5dd7f7dc")
+	)
+	(junction
+		(at 222.25 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e9e46a9-e37b-4f34-a020-9fa8cf2d9a00")
+	)
+	(junction
 		(at 109.22 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "514e1183-c238-4ca4-812f-57cffc11e60a")
 	)
 	(junction
+		(at 222.25 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "583342ac-e358-465d-b9e6-6ad60f0ffa57")
+	)
+	(junction
+		(at 190.5 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60b07c06-15e0-4a3d-8cf5-2803d5a9fea1")
+	)
+	(junction
 		(at 109.22 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "870c2a0e-6f50-4e74-9e44-3cf66a3cd0a9")
+	)
+	(junction
+		(at 222.25 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "886d456d-51d0-4e5a-9eca-abc41f41e2e4")
+	)
+	(junction
+		(at 222.25 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e601d5b-158a-4513-900c-52e6dfa5f420")
+	)
+	(junction
+		(at 153.67 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91cd379e-3d39-42af-a9fc-32a7eefd30e8")
+	)
+	(junction
+		(at 190.5 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e04e2c0-ee09-4fc8-9c10-904a12dec118")
+	)
+	(junction
+		(at 153.67 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e8e34a6-a143-40df-bbe3-2b4cfc30adba")
+	)
+	(junction
+		(at 190.5 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9915da0-3eaf-4824-aeb1-175c8122c0be")
+	)
+	(junction
+		(at 190.5 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b13576ad-453d-47e1-8a5a-51e1d019e7f4")
+	)
+	(junction
+		(at 222.25 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da53bc39-e8d1-4ad9-9076-93afcae19c78")
+	)
+	(junction
+		(at 190.5 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e243f3ca-71c7-4218-92d7-8aeafd30ce75")
+	)
+	(junction
+		(at 190.5 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec2b2c25-b778-4898-a120-c41a825b6ed3")
+	)
+	(junction
+		(at 190.5 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc70426c-f640-4586-8ccf-d3ffea64e281")
 	)
 	(wire
 		(pts
@@ -581,6 +752,26 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 92.71) (xy 222.25 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be04b9d-b3f6-4c11-9101-cea7892aa2ec")
+	)
+	(wire
+		(pts
+			(xy 190.5 54.61) (xy 190.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcac880-c616-426b-b919-0e3fdfd6f333")
+	)
+	(wire
+		(pts
 			(xy 109.22 76.2) (xy 109.22 91.44)
 		)
 		(stroke
@@ -588,6 +779,16 @@
 			(type default)
 		)
 		(uuid "2f30e9ac-91d1-4386-8fbe-18cb81174fbb")
+	)
+	(wire
+		(pts
+			(xy 109.22 25.4) (xy 109.22 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301c3bff-c850-4b92-bcbf-22c6141e0c36")
 	)
 	(wire
 		(pts
@@ -601,6 +802,206 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 25.4) (xy 153.67 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4d37b5-39c7-4131-a2b4-d784d03a5249")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 153.67 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d95a0c0-0a2c-46ec-8589-889a59850eaa")
+	)
+	(wire
+		(pts
+			(xy 222.25 31.75) (xy 222.25 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452df68f-ff76-4d8a-a34f-7b2d3dc27945")
+	)
+	(wire
+		(pts
+			(xy 222.25 54.61) (xy 222.25 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ae96a6-e8bd-411b-be75-6ac1476f1ef8")
+	)
+	(wire
+		(pts
+			(xy 153.67 73.66) (xy 153.67 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49427fa0-52cc-47a5-9a3e-3f525e8e5d1a")
+	)
+	(wire
+		(pts
+			(xy 222.25 85.09) (xy 222.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499ecf5d-c703-4f83-a7f9-9d71acef5ab8")
+	)
+	(wire
+		(pts
+			(xy 190.5 39.37) (xy 190.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5531c1d9-6c1d-491d-9018-878bfef1bfeb")
+	)
+	(wire
+		(pts
+			(xy 190.5 77.47) (xy 190.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59997e93-fae9-4fed-9bc5-72fd1e1010fa")
+	)
+	(wire
+		(pts
+			(xy 222.25 69.85) (xy 222.25 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0f630d-81cf-46a3-b299-463c43f27a75")
+	)
+	(wire
+		(pts
+			(xy 190.5 92.71) (xy 190.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "661f91ef-2092-4a6f-8f13-c725f1391942")
+	)
+	(wire
+		(pts
+			(xy 162.56 43.18) (xy 153.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d29aee-171b-408e-be12-bd502d039d9e")
+	)
+	(wire
+		(pts
+			(xy 162.56 58.42) (xy 153.67 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76796821-e770-49c7-8363-e948fa14500b")
+	)
+	(wire
+		(pts
+			(xy 190.5 31.75) (xy 190.5 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d644b0b-ea26-4357-926f-f2942352e30e")
+	)
+	(wire
+		(pts
+			(xy 190.5 62.23) (xy 190.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885d01e8-e485-448a-acf5-ca004521cbea")
+	)
+	(wire
+		(pts
+			(xy 153.67 58.42) (xy 153.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6cb6e3-be38-4d2c-ba57-73792d9ba305")
+	)
+	(wire
+		(pts
+			(xy 190.5 85.09) (xy 190.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b70dfeb-b187-4052-9533-6ea78168cb64")
+	)
+	(wire
+		(pts
+			(xy 190.5 46.99) (xy 190.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9610e415-003a-47d3-ac95-52d7407790d3")
+	)
+	(wire
+		(pts
+			(xy 153.67 25.4) (xy 109.22 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c2d1622-2faf-4f3a-9276-ac3e218ee267")
+	)
+	(wire
+		(pts
+			(xy 222.25 46.99) (xy 222.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d85ea19-ed83-4006-935c-f6ce02e003d4")
+	)
+	(wire
+		(pts
+			(xy 222.25 39.37) (xy 222.25 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa36c7b0-8db2-4248-9495-a39a1f9fc07e")
+	)
+	(wire
+		(pts
 			(xy 83.82 76.2) (xy 109.22 76.2)
 		)
 		(stroke
@@ -608,6 +1009,66 @@
 			(type default)
 		)
 		(uuid "b828aa58-e468-4a9b-818a-06d212c53082")
+	)
+	(wire
+		(pts
+			(xy 153.67 43.18) (xy 153.67 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3710b02-948c-47ae-9b32-12aecfea5fa7")
+	)
+	(wire
+		(pts
+			(xy 190.5 31.75) (xy 190.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5cf8f2-2a25-431b-9aa3-0da5045a5e6f")
+	)
+	(wire
+		(pts
+			(xy 222.25 62.23) (xy 222.25 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffc8d15-5389-4aa0-af20-015cfa46ad8f")
+	)
+	(wire
+		(pts
+			(xy 190.5 25.4) (xy 222.25 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ddc568-286b-4503-b95d-4e80626b988d")
+	)
+	(wire
+		(pts
+			(xy 222.25 25.4) (xy 222.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddef7725-543c-4786-b93a-23a8c101ad0d")
+	)
+	(wire
+		(pts
+			(xy 222.25 77.47) (xy 222.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb9f0a3-aada-4064-af5b-32036a68393f")
 	)
 	(wire
 		(pts
@@ -629,8 +1090,18 @@
 		)
 		(uuid "ee82fc30-3a22-441d-841b-732209106638")
 	)
+	(wire
+		(pts
+			(xy 190.5 69.85) (xy 190.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0593bdd-dfeb-471e-b6b3-24432ca5bfba")
+	)
 	(symbol
-		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm")
+		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm_v2")
 		(at 194.31 100.33 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -640,7 +1111,7 @@
 		(fields_autoplaced yes)
 		(uuid "0553ac78-c731-4d28-9e07-e5936d947583")
 		(property "Reference" "H34"
-			(at 196.85 99.0599 0)
+			(at 196.85 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -649,7 +1120,7 @@
 			)
 		)
 		(property "Value" "Jack3.5mm_Gate"
-			(at 196.85 101.5999 0)
+			(at 196.85 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -657,7 +1128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout_v2"
 			(at 194.31 100.33 0)
 			(effects
 				(font
@@ -675,14 +1146,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 194.31 100.33 0)
+		(property "Description" "Jack 3.5mm"
+			(at 196.85 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "3bf31f73-a736-45f9-a880-84881408db89")
 		)
 		(instances
 			(project "Jack Converter Panel"
@@ -721,7 +1195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Banana_Jack_Cutout"
+		(property "Footprint" "SynthStuff:Banana_Jack_Cutout_v2"
 			(at 184.15 107.95 0)
 			(effects
 				(font
@@ -758,7 +1232,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm")
+		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm_v2")
 		(at 194.31 92.71 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -768,7 +1242,7 @@
 		(fields_autoplaced yes)
 		(uuid "083875b3-265e-45c8-9d13-8be52cbca016")
 		(property "Reference" "H31"
-			(at 196.85 91.4399 0)
+			(at 196.85 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,7 +1251,7 @@
 			)
 		)
 		(property "Value" "Jack3.5mm_CV"
-			(at 196.85 93.9799 0)
+			(at 196.85 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +1259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout_v2"
 			(at 194.31 92.71 0)
 			(effects
 				(font
@@ -803,14 +1277,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 194.31 92.71 0)
+		(property "Description" "Jack 3.5mm"
+			(at 196.85 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "2d222cb0-e7b9-4941-906d-1b12dd108b47")
 		)
 		(instances
 			(project "Jack Converter Panel"
@@ -943,6 +1420,9 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "bd7565d4-d129-430a-943d-a1778d56fa2a")
+		)
 		(instances
 			(project "Jack Converter Panel"
 				(path "/660b7f37-fc50-4d93-b842-d6fc7ed166b2"
@@ -980,7 +1460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Banana_Jack_Cutout"
+		(property "Footprint" "SynthStuff:Banana_Jack_Cutout_v2"
 			(at 162.56 85.09 0)
 			(effects
 				(font
@@ -1084,7 +1564,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm")
+		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm_v2")
 		(at 194.31 31.75 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1094,7 +1574,7 @@
 		(fields_autoplaced yes)
 		(uuid "25e5fa29-f5fe-4330-bc67-692e5baaf27a")
 		(property "Reference" "H7"
-			(at 196.85 30.4799 0)
+			(at 196.85 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +1583,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Jack3.5mm"
-			(at 196.85 33.0199 0)
+			(at 196.85 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1111,7 +1591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout_v2"
 			(at 194.31 31.75 0)
 			(effects
 				(font
@@ -1129,14 +1609,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 194.31 31.75 0)
+		(property "Description" "Jack 3.5mm"
+			(at 196.85 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "b461004b-d8b7-4454-a082-6c175a92ea58")
 		)
 		(instances
 			(project "Jack Converter Panel"
@@ -1202,6 +1685,9 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "a0cafc3f-df79-4783-9ebb-e379221064fa")
+		)
 		(instances
 			(project "Jack Converter Panel"
 				(path "/660b7f37-fc50-4d93-b842-d6fc7ed166b2"
@@ -1212,7 +1698,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm")
+		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm_v2")
 		(at 194.31 85.09 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1222,7 +1708,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fb20a6a-170a-4d23-b5cb-2438919608d9")
 		(property "Reference" "H28"
-			(at 196.85 83.8199 0)
+			(at 196.85 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1231,7 +1717,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Jack3.5mm"
-			(at 196.85 86.3599 0)
+			(at 196.85 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout_v2"
 			(at 194.31 85.09 0)
 			(effects
 				(font
@@ -1257,14 +1743,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 194.31 85.09 0)
+		(property "Description" "Jack 3.5mm"
+			(at 196.85 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "f2300642-eeec-4f2d-9d68-8c91dd956dbd")
 		)
 		(instances
 			(project "Jack Converter Panel"
@@ -1330,6 +1819,9 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "713295da-43ca-4251-a0d3-e45aa6b6f8a7")
+		)
 		(instances
 			(project "Jack Converter Panel"
 				(path "/660b7f37-fc50-4d93-b842-d6fc7ed166b2"
@@ -1367,7 +1859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Banana_Jack_Cutout"
+		(property "Footprint" "SynthStuff:Banana_Jack_Cutout_v2"
 			(at 204.47 107.95 0)
 			(effects
 				(font
@@ -1565,7 +2057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Banana_Jack_Cutout"
+		(property "Footprint" "SynthStuff:Banana_Jack_Cutout_v2"
 			(at 229.87 107.95 0)
 			(effects
 				(font
@@ -1763,7 +2255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Banana_Jack_Cutout"
+		(property "Footprint" "SynthStuff:Banana_Jack_Cutout_v2"
 			(at 160.02 107.95 0)
 			(effects
 				(font
@@ -1800,7 +2292,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm")
+		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm_v2")
 		(at 194.31 69.85 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -1810,7 +2302,7 @@
 		(fields_autoplaced yes)
 		(uuid "69432b62-e5d8-4128-9343-7f2fe7f9f9d3")
 		(property "Reference" "H22"
-			(at 196.85 68.5799 0)
+			(at 196.85 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +2311,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Jack3.5mm"
-			(at 196.85 71.1199 0)
+			(at 196.85 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +2319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout_v2"
 			(at 194.31 69.85 0)
 			(effects
 				(font
@@ -1845,14 +2337,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 194.31 69.85 0)
+		(property "Description" "Jack 3.5mm"
+			(at 196.85 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "8fa6122a-756d-4d65-af67-6e1ff79439d6")
 		)
 		(instances
 			(project "Jack Converter Panel"
@@ -1891,7 +2386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Banana_Jack_Cutout"
+		(property "Footprint" "SynthStuff:Banana_Jack_Cutout_v2"
 			(at 162.56 46.99 0)
 			(effects
 				(font
@@ -2022,7 +2517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Banana_Jack_Cutout"
+		(property "Footprint" "SynthStuff:Banana_Jack_Cutout_v2"
 			(at 162.56 92.71 0)
 			(effects
 				(font
@@ -2219,7 +2714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Banana_Jack_Cutout"
+		(property "Footprint" "SynthStuff:Banana_Jack_Cutout_v2"
 			(at 162.56 31.75 0)
 			(effects
 				(font
@@ -2256,7 +2751,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm")
+		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm_v2")
 		(at 194.31 54.61 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2266,7 +2761,7 @@
 		(fields_autoplaced yes)
 		(uuid "96e605ed-13c8-49f3-b18c-156f8b9f3eeb")
 		(property "Reference" "H16"
-			(at 196.85 53.3399 0)
+			(at 196.85 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +2770,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Jack3.5mm"
-			(at 196.85 55.8799 0)
+			(at 196.85 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout_v2"
 			(at 194.31 54.61 0)
 			(effects
 				(font
@@ -2301,14 +2796,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 194.31 54.61 0)
+		(property "Description" "Jack 3.5mm"
+			(at 196.85 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "30b7e2b0-1778-4e7e-8967-841890c30672")
 		)
 		(instances
 			(project "Jack Converter Panel"
@@ -2320,7 +2818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm")
+		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm_v2")
 		(at 194.31 46.99 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2330,7 +2828,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4b522f5-864c-4329-83cd-f5be59c7478d")
 		(property "Reference" "H13"
-			(at 196.85 45.7199 0)
+			(at 196.85 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2837,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Jack3.5mm"
-			(at 196.85 48.2599 0)
+			(at 196.85 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout_v2"
 			(at 194.31 46.99 0)
 			(effects
 				(font
@@ -2365,14 +2863,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 194.31 46.99 0)
+		(property "Description" "Jack 3.5mm"
+			(at 196.85 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "44550e81-1209-4fee-989e-f4f76fc8b890")
 		)
 		(instances
 			(project "Jack Converter Panel"
@@ -2545,7 +3046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Banana_Jack_Cutout"
+		(property "Footprint" "SynthStuff:Banana_Jack_Cutout_v2"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -2649,7 +3150,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm")
+		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm_v2")
 		(at 194.31 39.37 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2659,7 +3160,7 @@
 		(fields_autoplaced yes)
 		(uuid "d049b756-60fc-4edd-a2c9-f4d463f2727c")
 		(property "Reference" "H10"
-			(at 196.85 38.0999 0)
+			(at 196.85 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +3169,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Jack3.5mm"
-			(at 196.85 40.6399 0)
+			(at 196.85 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +3177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout_v2"
 			(at 194.31 39.37 0)
 			(effects
 				(font
@@ -2694,14 +3195,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 194.31 39.37 0)
+		(property "Description" "Jack 3.5mm"
+			(at 196.85 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "87e9b72d-e549-4e09-984a-d91983849881")
 		)
 		(instances
 			(project "Jack Converter Panel"
@@ -2780,7 +3284,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm")
+		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm_v2")
 		(at 194.31 62.23 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2790,7 +3294,7 @@
 		(fields_autoplaced yes)
 		(uuid "d92e6e6e-2c8b-49a5-9845-f44ee1f470bc")
 		(property "Reference" "H19"
-			(at 196.85 60.9599 0)
+			(at 196.85 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +3303,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Jack3.5mm"
-			(at 196.85 63.4999 0)
+			(at 196.85 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +3311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout_v2"
 			(at 194.31 62.23 0)
 			(effects
 				(font
@@ -2825,14 +3329,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 194.31 62.23 0)
+		(property "Description" "Jack 3.5mm"
+			(at 196.85 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "38dc553a-d48d-405a-880c-2155b1711130")
 		)
 		(instances
 			(project "Jack Converter Panel"
@@ -2938,7 +3445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Banana_Jack_Cutout"
+		(property "Footprint" "SynthStuff:Banana_Jack_Cutout_v2"
 			(at 162.56 100.33 0)
 			(effects
 				(font
@@ -3069,7 +3576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Banana_Jack_Cutout"
+		(property "Footprint" "SynthStuff:Banana_Jack_Cutout_v2"
 			(at 162.56 77.47 0)
 			(effects
 				(font
@@ -3106,7 +3613,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm")
+		(lib_id "Synth_Stuff:MountingHole_Jack3.5mm_v2")
 		(at 194.31 77.47 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -3116,7 +3623,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea79a363-121a-4059-afd1-2742b6f28c21")
 		(property "Reference" "H25"
-			(at 196.85 76.1999 0)
+			(at 196.85 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,7 +3632,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Jack3.5mm"
-			(at 196.85 78.7399 0)
+			(at 196.85 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout"
+		(property "Footprint" "SynthStuff:Jack_3.5mm_Cutout_v2"
 			(at 194.31 77.47 0)
 			(effects
 				(font
@@ -3151,14 +3658,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 194.31 77.47 0)
+		(property "Description" "Jack 3.5mm"
+			(at 196.85 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
+		)
+		(pin "1"
+			(uuid "69140e3e-34dc-4b95-9959-4e03cc9d6b53")
 		)
 		(instances
 			(project "Jack Converter Panel"
