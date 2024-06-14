@@ -15519,6 +15519,29 @@
 		(layer "User.9")
 		(uuid "fe069f43-b5c0-472c-876d-f07eb314416d")
 	)
+	(gr_text "Buffered Mult Mk1 - June 2024"
+		(at 50 210.5 0)
+		(layer "B.SilkS")
+		(uuid "add7baa8-1adc-4be5-a2e6-62e70df53439")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 50 210.5 0)
+		(layer "F.SilkS")
+		(uuid "b779022c-b385-4f0c-8ae4-cefedb2046be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
 	(segment
 		(start 44.900001 127.019999)
 		(end 47 124.92)

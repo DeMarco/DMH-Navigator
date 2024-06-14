@@ -934,7 +934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v2"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
 			(at 190.5 88.9 0)
 			(effects
 				(font
@@ -1001,7 +1001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 152.4 38.1 0)
 			(effects
 				(font
@@ -1068,7 +1068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_3.2mm_M3_Pad4mm"
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
 			(at 88.9 64.77 0)
 			(effects
 				(font
@@ -1135,7 +1135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 152.4 50.8 0)
 			(effects
 				(font
@@ -1202,7 +1202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 190.5 114.3 0)
 			(effects
 				(font
@@ -1269,7 +1269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v2"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
 			(at 152.4 88.9 0)
 			(effects
 				(font
@@ -1402,7 +1402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_3.2mm_M3_Pad4mm"
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
 			(at 63.5 77.47 0)
 			(effects
 				(font
@@ -1469,7 +1469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_3.2mm_M3_Pad4mm"
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
 			(at 63.5 64.77 0)
 			(effects
 				(font
@@ -1536,7 +1536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v2"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
 			(at 190.5 25.4 0)
 			(effects
 				(font
@@ -1670,7 +1670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 152.4 101.6 0)
 			(effects
 				(font
@@ -1737,7 +1737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 190.5 127 0)
 			(effects
 				(font
@@ -1804,7 +1804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 190.5 63.5 0)
 			(effects
 				(font
@@ -1871,7 +1871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 152.4 63.5 0)
 			(effects
 				(font
@@ -1938,7 +1938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 190.5 50.8 0)
 			(effects
 				(font
@@ -2005,7 +2005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 152.4 114.3 0)
 			(effects
 				(font
@@ -2072,7 +2072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 190.5 38.1 0)
 			(effects
 				(font
@@ -2139,7 +2139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_3.2mm_M3_Pad4mm"
+		(property "Footprint" "SynthStuff:MountingHole_Rails"
 			(at 88.9 77.47 0)
 			(effects
 				(font
@@ -2206,7 +2206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 152.4 127 0)
 			(effects
 				(font
@@ -2273,7 +2273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -2340,7 +2340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v2"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_v3"
 			(at 152.4 25.4 0)
 			(effects
 				(font
