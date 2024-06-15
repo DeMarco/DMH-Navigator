@@ -16103,27 +16103,29 @@
 		(uuid "208d872e-6431-485e-94a1-766f028ca624")
 	)
 	(gr_text "JLCJLCJLCJLC"
-		(at 108 241.5 0)
+		(at 103 245 0)
 		(layer "B.SilkS")
 		(uuid "10f82f02-27a4-4321-b688-7695d3a23ca3")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
-			(justify left bottom mirror)
+			(justify mirror)
 		)
 	)
 	(gr_text "Mk1 - May 2024"
-		(at 109.5 245.5 0)
+		(at 102.75 241.5 0)
 		(layer "B.SilkS")
 		(uuid "5bf4dcb2-cc10-44e0-9597-46b2643a77e6")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
-			(justify left bottom mirror)
+			(justify mirror)
 		)
 	)
 	(gr_text "CV"
