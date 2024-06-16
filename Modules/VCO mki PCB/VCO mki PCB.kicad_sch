@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fefed352-c100-4617-bbfb-c55e7427b122")
+	(paper "A4")
+	(title_block
+		(title "VCO mki PCB")
+		(date "2024-06-16")
+		(rev "1")
+		(company "DMH")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -7,3 +7,6 @@
 [submodule "Modules/Buffered Mult/Libraries/SynthStuff"]
 	path = Modules/Buffered Mult/Libraries/SynthStuff
 	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
+[submodule "Modules/VCO mki PCB/Libraries/SynthStuff"]
+	path = Modules/VCO mki PCB/Libraries/SynthStuff
+	url = https://github.com/DeMarco/KiCad-Lib-SynthStuff.git
