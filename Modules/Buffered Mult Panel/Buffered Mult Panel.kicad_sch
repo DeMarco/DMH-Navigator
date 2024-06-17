@@ -6902,7 +6902,7 @@
 				)
 			)
 		)
-		(property "Value" "Panel_0V"
+		(property "Value" "Panel_GND"
 			(at 190.5 21.59 0)
 			(effects
 				(font

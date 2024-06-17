@@ -3819,7 +3819,7 @@
 				)
 			)
 		)
-		(property "Value" "Panel_0V"
+		(property "Value" "Panel_GND"
 			(at 0.977174 2.33 0)
 			(layer "F.SilkS")
 			(uuid "633adcfd-f273-41c9-8414-5353f9dd86c0")
