@@ -12,6 +12,12 @@
 	)
 	(lib_symbols)
 	(junction
+		(at 139.7 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4150a62-d03d-4399-9964-9646e9b8ce01")
+	)
+	(junction
 		(at 82.55 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -66,6 +72,16 @@
 			(type default)
 		)
 		(uuid "271d9041-a936-4378-8806-de270d14220a")
+	)
+	(wire
+		(pts
+			(xy 194.31 104.14) (xy 194.31 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d349714-dc26-4cd0-bb15-d50f22018ae9")
 	)
 	(wire
 		(pts
@@ -219,6 +235,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 104.14) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0a0fbf-6827-40b9-806d-4ce558d8927e")
+	)
+	(wire
+		(pts
 			(xy 82.55 104.14) (xy 91.44 104.14)
 		)
 		(stroke
@@ -317,6 +343,26 @@
 		)
 		(uuid "e7284f74-761f-47b6-bc50-766e3eb2f6e2")
 	)
+	(wire
+		(pts
+			(xy 194.31 63.5) (xy 72.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed07543e-bb53-406c-b900-5062145e625f")
+	)
+	(wire
+		(pts
+			(xy 190.5 104.14) (xy 194.31 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdfc894d-eab6-431b-97ac-d0372bce9395")
+	)
 	(sheet
 		(at 91.44 99.06)
 		(size 41.91 35.56)
@@ -387,7 +433,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5d4fa276-24f5-484f-b50d-2ebe5f0666ef")
-		(property "Sheetname" "Senoid Shaper"
+		(property "Sheetname" "Sine Shaper"
 			(at 149.86 98.3484 0)
 			(effects
 				(font
@@ -396,7 +442,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Senoid_Shaper.kicad_sch"
+		(property "Sheetfile" "Sine_Shaper.kicad_sch"
 			(at 149.86 135.2046 0)
 			(effects
 				(font
@@ -404,6 +450,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "Sine Out" output
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4e7d8e5c-d30f-487a-ac52-f5373e18a275")
+		)
+		(pin "Triangle In" input
+			(at 149.86 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dbcf1a8e-35d1-44ba-90d9-0ca3416153c0")
 		)
 		(instances
 			(project "VCO mki PCB"
@@ -679,7 +745,7 @@
 			)
 			(uuid "3ebc24dd-d726-4884-8aad-3dd50a19ec1d")
 		)
-		(pin "Senoid Out Jack" input
+		(pin "Sine Out Jack" input
 			(at 72.39 63.5 0)
 			(effects
 				(font

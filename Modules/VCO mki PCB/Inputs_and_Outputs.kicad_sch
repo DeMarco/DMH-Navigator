@@ -704,7 +704,7 @@
 		)
 		(uuid "45e560ce-6d42-4346-831c-f04146bfed43")
 	)
-	(hierarchical_label "Senoid Out Jack"
+	(hierarchical_label "Sine Out Jack"
 		(shape input)
 		(at 133.35 55.88 0)
 		(fields_autoplaced yes)

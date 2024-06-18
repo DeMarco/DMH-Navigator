@@ -2018,7 +2018,7 @@
 			(uuid "f76791ac-f76f-4a1f-b1ba-24f7544bbe9b")
 		)
 		(instances
-			(project ""
+			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
 					(reference "R29")
 					(unit 1)
@@ -2164,7 +2164,7 @@
 			(uuid "6528d3ba-5f3f-42c1-a0e3-a3a17c7d9164")
 		)
 		(instances
-			(project ""
+			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
 					(reference "Q5")
 					(unit 1)
@@ -2230,7 +2230,7 @@
 			(uuid "06da142e-9a65-4d25-870c-7c950e04a028")
 		)
 		(instances
-			(project ""
+			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
 					(reference "#PWR037")
 					(unit 1)
@@ -2365,7 +2365,7 @@
 			(uuid "0249e705-6072-4fa8-b3ed-d134c132945c")
 		)
 		(instances
-			(project ""
+			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
 					(reference "RV9")
 					(unit 1)
@@ -2442,7 +2442,7 @@
 			(uuid "f3689fcf-6619-496a-9444-5e6eeedfde0b")
 		)
 		(instances
-			(project ""
+			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
 					(reference "Q6")
 					(unit 1)
@@ -2578,7 +2578,7 @@
 			(uuid "19414282-627b-47dd-8cb0-5eef489d7637")
 		)
 		(instances
-			(project ""
+			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
 					(reference "#PWR039")
 					(unit 1)
@@ -2664,7 +2664,7 @@
 			(uuid "70e58a3b-9f40-449a-bc25-132b8f565903")
 		)
 		(instances
-			(project ""
+			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
 					(reference "U3")
 					(unit 2)
@@ -2800,7 +2800,7 @@
 			(uuid "a2007a48-b22e-480d-9fff-a1e39804f16b")
 		)
 		(instances
-			(project ""
+			(project "VCO mki PCB"
 				(path "/fefed352-c100-4617-bbfb-c55e7427b122/5d4fa276-24f5-484f-b50d-2ebe5f0666ef"
 					(reference "#PWR036")
 					(unit 1)
